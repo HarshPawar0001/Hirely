@@ -90,7 +90,7 @@ const PostJob = () => {
     return <BarLoader className="mb-4" width={"100%"} color="#36d7b7" />;
   }
 // 
-  if (user?.unsafeMetadata?.role ==="recruiter") {
+  if (user?.unsafeMetadata?.role !=="recruiter") {
     console.log(user?.unsafeMetadata?.role);
     console.log("recruiter");
    
