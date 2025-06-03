@@ -35,7 +35,7 @@ const Header = () => {
              </SignedOut>
             <SignedIn>
             {/* post job button only visisble to recruiter */}
-            {user?.unsafeMetadata?.role !== "recruiter" && (
+            {user?.unsafeMetadata?.role === "recruiter" && (
               <Link to="/post-job">
                 <Button variant="destructive" className="rounded-full">
                   <PenBox size={20} className="mr-2" />
