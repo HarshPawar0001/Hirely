@@ -151,7 +151,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## ✉️ Contact
 
 **Harsh Pawar** – [harsh.pawar.ug23@nsut.ac.in](mailto:harsh.pawar.ug23@nsut.ac.in)
-📎 [LinkedIn](https://www.linkedin.com/in/harshpawar0001)
+📎 [LinkedIn](https://www.linkedin.com/in/harsh-pawar-05991834a/)
+
 🔗 Project Link: [https://github.com/HarshPawar0001/Hirely](https://github.com/HarshPawar0001/Hirely)
 
 
