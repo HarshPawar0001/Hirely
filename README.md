@@ -97,14 +97,17 @@ Hirely/
 
 📜 Available Scripts
 In the project directory, you can run:
-
+```text
 npm start
+```
 Starts the app in development mode.
-
+```text
 npm test
+```
 Launches the test runner.
-
+```text
 npm run build
+```
 Builds the app for production.
 
 🌍 Deployment
