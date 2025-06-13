@@ -2,6 +2,7 @@
 
 **Hirely** is a modern, full-stack web application designed to simplify the hiring process for recruiters and job seekers. Built with React, it offers a seamless platform for managing job postings, tracking applicants, and facilitating communication.
 
+![Website Screenshot](public/hirelybio.png)
 ---
 
 ## ✨ Features
