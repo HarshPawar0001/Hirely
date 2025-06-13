@@ -39,32 +39,38 @@ Ensure you have Node.js and npm installed.
 
 Installation
 Clone the repository:
-
+```text
 git clone https://github.com/HarshPawar0001/Hirely.git
-
+```
 Navigate to the project directory:
-
+```text
 cd Hirely
+```
 
 Install dependencies:
-
+```text
 npm install
+```
 
 Environment Variables
 Create a .env.local file in the project root and add your Supabase and Clerk credentials:
 
 # Supabase Credentials
+```text
 NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 
 # Clerk Credentials
+
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 CLERK_SECRET_KEY=your_clerk_secret_key
+```
 
 Running the Application
 To start the development server:
-
+```text
 npm start
+```
 
 Open http://localhost:3000 in your browser.
 
