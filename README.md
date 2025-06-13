@@ -69,6 +69,9 @@ npm start
 Open http://localhost:3000 in your browser.
 
 📁 Project Structure
+## 📁 Project Structure
+
+```text
 Hirely/
 ├── public/                 # Static assets
 ├── src/                    # Source code
@@ -84,6 +87,7 @@ Hirely/
 ├── tailwind.config.js      # Tailwind CSS configuration
 ├── postcss.config.js       # PostCSS configuration
 └── README.md               # This file
+```
 
 📜 Available Scripts
 In the project directory, you can run:
