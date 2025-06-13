@@ -1,6 +1,3 @@
-Here is your **formatted README.md** for direct pasting into your GitHub repository:
-
-````markdown
 # 🚀 Hirely: Your Full-Stack Job Portal
 
 **Hirely** is a modern, full-stack web application designed to simplify the hiring process for recruiters and job seekers. Built with React, it offers a seamless platform for managing job postings, tracking applicants, and facilitating communication.
@@ -42,7 +39,7 @@ Hirely provides an efficient hiring workflow with:
 
    ```bash
    git clone https://github.com/HarshPawar0001/Hirely.git
-````
+
 
 2. **Navigate to the project directory**:
 
@@ -157,9 +154,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 📎 [LinkedIn](https://www.linkedin.com/in/harshpawar0001)
 🔗 Project Link: [https://github.com/HarshPawar0001/Hirely](https://github.com/HarshPawar0001/Hirely)
 
-```
 
-Let me know if you’d like to auto-generate badges (build, license, etc.) or add visuals like screenshots!
-```
 
 
