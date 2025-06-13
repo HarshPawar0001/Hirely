@@ -1,83 +1,90 @@
-Hirely: Your Full-Stack Job Portal
-Hirely is a modern, full-stack web application designed to simplify the hiring process for recruiters and job seekers. Built with React, it offers a seamless platform for managing job postings, tracking applicants, and facilitating communication.
+Here is your **formatted README.md** for direct pasting into your GitHub repository:
 
-🚀 Features
+````markdown
+# 🚀 Hirely: Your Full-Stack Job Portal
+
+**Hirely** is a modern, full-stack web application designed to simplify the hiring process for recruiters and job seekers. Built with React, it offers a seamless platform for managing job postings, tracking applicants, and facilitating communication.
+
+---
+
+## ✨ Features
+
 Hirely provides an efficient hiring workflow with:
 
-Job Posting Management: Create, edit, and manage job listings with detailed descriptions and visibility controls.
+- **📝 Job Posting Management**: Create, edit, and manage job listings with detailed descriptions and visibility controls.
+- **📊 Candidate Tracking**: Track applicants through customizable hiring stages and access detailed profiles including resumes and notes.
+- **📩 Application Submission**: Candidates can easily apply to jobs and monitor their application status.
+- **🔐 Secure User Authentication & Access**: Leverages Clerk for secure, role-based access for recruiters and applicants.
+- **🔍 Advanced Search and Filtering**: Quickly find jobs or candidates using keywords, location, skills, and application status.
+- **📱 Responsive & Modern Interface**: Built with Tailwind CSS and Shadcn UI for a customizable and accessible design across all devices.
 
-Candidate Tracking: Track applicants through customizable hiring stages and access detailed profiles including resumes and notes.
+---
 
-Application Submission: Candidates can easily apply to jobs and monitor their application status.
+## 🛠 Technologies Used
 
-Secure User Authentication & Access: Leverages Clerk for secure, role-based access for recruiters and applicants.
+- **Frontend**: React.js  
+- **Styling**: Tailwind CSS + Shadcn UI  
+- **Backend & Database**: Supabase  
+- **Authentication**: Clerk  
+- **Build Tools**: Node.js / npm
 
-Advanced Search and Filtering: Quickly find jobs or candidates using keywords, location, skills, and application status.
+---
 
-Responsive & Modern Interface: Built with Tailwind CSS and Shadcn UI for a customizable and accessible design across all devices.
+## 🚀 Getting Started
 
-💻 Technologies Used
-Hirely is built with a robust and modern tech stack:
+### ✅ Prerequisites
 
-React JS (Frontend)
+- Node.js and npm installed on your system
 
-Tailwind CSS
+### 📦 Installation
 
-Supabase (Backend, Database, Auth)
+1. **Clone the repository**:
 
-Clerk (User Authentication)
+   ```bash
+   git clone https://github.com/HarshPawar0001/Hirely.git
+````
 
-Shadcn UI (UI Components)
+2. **Navigate to the project directory**:
 
-Node.js/npm
+   ```bash
+   cd Hirely
+   ```
 
-🚀 Getting Started
-To get Hirely running locally:
+3. **Install dependencies**:
 
-Prerequisites
-Ensure you have Node.js and npm installed.
+   ```bash
+   npm install
+   ```
 
-Installation
-Clone the repository:
-```text
-git clone https://github.com/HarshPawar0001/Hirely.git
-```
-Navigate to the project directory:
-```text
-cd Hirely
-```
+### 🔐 Environment Variables
 
-Install dependencies:
-```text
-npm install
-```
+Create a `.env.local` file in the project root and add your Supabase and Clerk credentials:
 
-Environment Variables
-Create a .env.local file in the project root and add your Supabase and Clerk credentials:
-
+```env
 # Supabase Credentials
-```text
 NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 
 # Clerk Credentials
-
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 CLERK_SECRET_KEY=your_clerk_secret_key
 ```
 
-Running the Application
+### ▶️ Running the Application
+
 To start the development server:
-```text
+
+```bash
 npm start
 ```
 
-Open http://localhost:3000 in your browser.
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
-📁 Project Structure
+---
+
 ## 📁 Project Structure
 
-```text
+```
 Hirely/
 ├── public/                 # Static assets
 ├── src/                    # Source code
@@ -95,46 +102,64 @@ Hirely/
 └── README.md               # This file
 ```
 
-📜 Available Scripts
+---
+
+## 📜 Available Scripts
+
 In the project directory, you can run:
-```text
-npm start
-```
-Starts the app in development mode.
-```text
-npm test
-```
-Launches the test runner.
-```text
-npm run build
-```
-Builds the app for production.
 
-🌍 Deployment
-Hirely is currently deployed on Vercel: https://hirely-livid.vercel.app/
+* `npm start` – Starts the app in development mode.
+* `npm test` – Launches the test runner.
+* `npm run build` – Builds the app for production.
 
-🤝 Contributing
+---
+
+## 🌍 Deployment
+
+Hirely is currently deployed on Vercel:
+🔗 [https://hirely-livid.vercel.app/](https://hirely-livid.vercel.app/)
+
+---
+
+## 🤝 Contributing
+
 Contributions are welcome!
 
-Fork the Project
+1. **Fork the Project**
+2. **Create your Feature Branch**:
 
-Create your Feature Branch: (git checkout -b feature/AmazingFeature)
+   ```bash
+   git checkout -b feature/AmazingFeature
+   ```
+3. **Commit your Changes**:
 
-Commit your Changes: (git commit -m 'Add some AmazingFeature')
+   ```bash
+   git commit -m 'Add some AmazingFeature'
+   ```
+4. **Push to the Branch**:
 
-Push to the Branch: (git push origin feature/AmazingFeature)
+   ```bash
+   git push origin feature/AmazingFeature
+   ```
+5. **Open a Pull Request**
 
-Open a Pull Request: Describe your changes.
+---
 
-📄 License
-Distributed under the MIT License. See the LICENSE file for details.
+## 📄 License
 
-✉️ Contact
-Harsh Pawar - harsh.pawar.ug23@nsut.ac.in - LinkedIn
+Distributed under the MIT License. See `LICENSE` for more information.
 
-Project Link: https://github.com/HarshPawar0001/Hirely
+---
 
+## ✉️ Contact
 
+**Harsh Pawar** – [harsh.pawar.ug23@nsut.ac.in](mailto:harsh.pawar.ug23@nsut.ac.in)
+📎 [LinkedIn](https://www.linkedin.com/in/harshpawar0001)
+🔗 Project Link: [https://github.com/HarshPawar0001/Hirely](https://github.com/HarshPawar0001/Hirely)
 
+```
+
+Let me know if you’d like to auto-generate badges (build, license, etc.) or add visuals like screenshots!
+```
 
 
