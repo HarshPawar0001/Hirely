@@ -17,13 +17,13 @@ Hirely provides an efficient hiring workflow with:
 
 ---
 
-## 🛠 Technologies Used
+## 🛠 Tech Stack
 
-- **Frontend**: React.js  
-- **Styling**: Tailwind CSS + Shadcn UI  
-- **Backend & Database**: Supabase  
-- **Authentication**: Clerk  
-- **Build Tools**: Node.js / npm
+- ⚛️ **Frontend**: [React.js](https://reactjs.org/)
+- 🎨 **Styling**: [Tailwind CSS](https://tailwindcss.com/) + [Shadcn UI](https://ui.shadcn.com/)
+- 🛢️ **Backend & Database**: [Supabase](https://supabase.com/)
+- 🔐 **Authentication**: [Clerk](https://clerk.dev/)
+- 🛠️ **Build Tools**: [Node.js](https://nodejs.org/) / npm
 
 ---
 
